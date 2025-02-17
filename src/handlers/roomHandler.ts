@@ -34,7 +34,7 @@ const roomHandler = (socket: Socket) => {
             console.log("New user joined the room", roomId, "with peerId as", peerId);
             // the moment new user joins, add the peerId to the key of roomId
             rooms[roomId].push(peerId);
-            console.log("added peer to room", rooms);        
+            console.log("added peer to room", rooms);
             socket.join(roomId); // make the user join the socket room
 
             // below event is for logging purpose
