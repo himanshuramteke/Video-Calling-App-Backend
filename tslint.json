@@ -6,7 +6,7 @@
             "severity": "warning",
             "options": ["debug", "info", "log", "trace"]
         },
-        "max-line-length": [true, 100],
+        "max-line-length": [true, 150],
         "semicolon": {
             "options": [
                 "always"
@@ -14,6 +14,6 @@
         }
     }, 
     "jsRules": {
-
+        "no-console": "off"
     }
 } 
